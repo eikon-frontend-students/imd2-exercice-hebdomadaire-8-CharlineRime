@@ -7,8 +7,74 @@
 a {
   color: inherit;
 }
+body {
+  color: #000;
+  font-family: Lato;
+  line-height: 15px;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
 
 img,
 video {
   display: block;
+  width: 40px;
+  height: 40px;
+}
+.item-name {
+  font-weight: 700;
+}
+.item-availability {
+  font-weight: 400;
+}
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+  flex: 1 0 0;
+}
+.product-price {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.product {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+}
+
+.card {
+  display: flex;
+  width: 284px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+button {
+  display: flex;
+  width: 244px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: #0a003c;
+  color: white;
+  border: none;
+  font-size: 18px;
+  transition: background 0.5s;
+}
+
+button:hover {
+  background: #4924ff;
 }
